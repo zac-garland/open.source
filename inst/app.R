@@ -111,7 +111,13 @@ map_click_server <- function(id){
     output$hcline <- renderHighchart({
       click_dat <- click_data() %>% arrange(year)
 
-      hchart(click_dat, "line", hcaes(x = year, y = value,group = country))
+      hchart(click_dat, "line", hcaes(x = year, y = value,group = country)) %>%
+        hc_tooltip(
+          crosshairs = TRUE,
+          borderWidth = 5,
+          sort = TRUE,
+          table = TRUE
+        )
 
 
     })
