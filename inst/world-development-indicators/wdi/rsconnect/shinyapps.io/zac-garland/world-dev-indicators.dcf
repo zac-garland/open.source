@@ -1,0 +1,13 @@
+name: world-dev-indicators
+title: world-dev-indicators
+username:
+account: zac-garland
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4855340
+bundleId: 5132032
+url: https://zac-garland.shinyapps.io/world-dev-indicators/
+when: 1634067338.21206
+lastSyncTime: 1634067338.21206
+asMultiple: FALSE
+asStatic: FALSE

@@ -19,6 +19,10 @@ Depends:
     R (>= 2.10),
     tidyverse
 Imports: 
-    janitor
+    shiny,
+    janitor,
+    highcharter,
+    shinyWidgets,
+    magrittr
 URL: https://github.com/zac-garland/open.source
 BugReports: https://github.com/zac-garland/open.source/issues
